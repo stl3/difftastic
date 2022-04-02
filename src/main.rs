@@ -32,6 +32,7 @@ mod summary;
 mod syntax;
 mod tree_sitter_parser;
 mod unchanged;
+mod unified;
 
 #[macro_use]
 extern crate log;
@@ -462,6 +463,19 @@ fn print_diff_result(
                         background,
                         &summary.path,
                         &lang_name,
+                        lhs_src,
+                        rhs_src,
+                        &summary.lhs_positions,
+                        &summary.rhs_positions,
+                    );
+                }
+                DisplayMode::Unified => {
+                    unified::print(
+                        &hunks,
+                        &summary.path,
+                        &summary.path,
+                        use_color,
+                        background,
                         lhs_src,
                         rhs_src,
                         &summary.lhs_positions,
