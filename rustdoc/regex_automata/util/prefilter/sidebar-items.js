@@ -1,0 +1,1 @@
+initSidebarItems({"struct":[["Prefilter","A prefilter for accelerating regex searches."]]});

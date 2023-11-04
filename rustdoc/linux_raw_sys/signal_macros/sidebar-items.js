@@ -1,0 +1,1 @@
+initSidebarItems({"constant":[["SIG_DFL",""]],"fn":[["sig_ign","Rust doesn’t currently permit us to use `transmute` to convert the `SIG_IGN` value into a function pointer in a `const` initializer, so we make it a function instead."]]});

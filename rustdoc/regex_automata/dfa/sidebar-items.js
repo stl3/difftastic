@@ -1,0 +1,1 @@
+initSidebarItems({"mod":[["onepass","A DFA that can return spans for matching capturing groups."]]});

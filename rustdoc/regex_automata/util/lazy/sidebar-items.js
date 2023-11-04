@@ -1,0 +1,1 @@
+initSidebarItems({"struct":[["Lazy","A lazily initialized value that implements `Deref` for `T`."]]});
